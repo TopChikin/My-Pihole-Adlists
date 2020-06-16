@@ -162,8 +162,8 @@ partner-service-testing.spotify.com
 payment-callback.spotify.com
 pci.spotify.com
 pixel.spotify.com
-upgrade.scdn.co # optional
-upgrade.spotify.com # optional
+upgrade.scdn.co
+upgrade.spotify.com
 video-fa.scdn.co
 video-fa.cdn.spotify.com
 video-fa-b.cdn.spotify.com
@@ -753,23 +753,24 @@ sb.voicefive.com
 ads.flurry.com
 media-router-flurry7.prod.media.wg1.b.yahoo.com
 api.zwizzarmyknife.com
-ssoproxy.gslb.spotify.com            
-sto-dealer.spotify.com               
-sto-spclient.spotify.com             
-sto.weblb-wg.dual-gslb.spotify.com   
-sto.weblb-wg.gslb.spotify.com        
-sto3-idp-a1.sto3.spotify.com         
-sto3-idp-a2.sto3.spotify.com         
-sto3-inbound-a1.sto3.spotify.com     
-sto3-inbound-a2.sto3.spotify.com     
-sto3-inboundvideo-a1.sto3.spotify.com
-sto3-inboundvideo-a2.sto3.spotify.com
-sto3-jumphost-a1.sto3.spotify.com    
-sto3-outbound-a1.sto3.spotify.com    
-sto3-outbound-a3.sto3.spotify.com    
-sto3-ssoproxy-a1.sto3.spotify.net    
-vpn-ash1-1.ash.spotify.com 
-vpn-ash1-1.ash1.spotify.com
+
+ssoproxy.gslb.spotify.com                   
+sto-dealer.spotify.com                      
+sto-spclient.spotify.com                    
+sto.weblb-wg.dual-gslb.spotify.com          
+sto.weblb-wg.gslb.spotify.com               
+sto3-idp-a1.sto3.spotify.com                
+sto3-idp-a2.sto3.spotify.com                
+sto3-inbound-a1.sto3.spotify.com            
+sto3-inbound-a2.sto3.spotify.com            
+sto3-inboundvideo-a1.sto3.spotify.com       
+sto3-inboundvideo-a2.sto3.spotify.com       
+sto3-jumphost-a1.sto3.spotify.com           
+sto3-outbound-a1.sto3.spotify.com           
+sto3-outbound-a3.sto3.spotify.com           
+sto3-ssoproxy-a1.sto3.spotify.net           
+vpn-ash1-1.ash.spotify.com                  
+vpn-ash1-1.ash1.spotify.com                 
 rt-vrrp-pub.ash.spotify.com                 
 rt-vrrp-pub.ash1.spotify.com                
 ash-jumphost-a1.ash.spotify.com             
@@ -866,6 +867,7 @@ adstudio.spotify.com
 alien.dual-gslb.spotify.com                 
 alien.spotify.net                           
 artists.spotify.com                         
+                                            
 artist-identity-image.spotify.com           
 artistinsights-realtime.spotify.com         
 artistyearinmusic.spotify.com               
@@ -873,6 +875,7 @@ auditdesk-server.spotify.com
 bundling-integration.spotify.com            
 cal.spotify.com                             
 cms.spotify.com                             
+                                            
 community-stage.spotify.com                 
 docs.spotify.com                            
 cws.spotify.com                             
@@ -906,15 +909,15 @@ sp-bootstrap.global.ssl.fastly.net
 live.spotify.com                            
 community.spotify.com                       
 useradmin.spotify.com                       
-devaccount.spotify.com                    
-dev.spotify.com                           
-devnews.spotify.com                       
-img.spotify.com                           
-login-signup.scdn.co                      
-lon.weblb-wg.dual-gslb.spotify.com        
-lon.weblb-wg.gslb.spotify.com             
-mobile-001.lon.spotify.com                
-www-001.lon.spotify.com                   
+devaccount.spotify.com                      
+dev.spotify.com                             
+devnews.spotify.com                         
+img.spotify.com                             
+login-signup.scdn.co                        
+lon.weblb-wg.dual-gslb.spotify.com          
+lon.weblb-wg.gslb.spotify.com               
+mobile-001.lon.spotify.com                  
+www-001.lon.spotify.com                     
 o1.em.spotify.com                           
 wl.spotify.com                              
 wl.support.spotify.com                      
@@ -1671,10 +1674,9 @@ imagesrv.adition.com
 ad3.adfarm1.adition.com
 a301.w62d.akamai.net
 a297.c.akamai.net
-prod.spotify-heads.map.fastlylb.net
 adclick.g.doublecklick.
 adeventtracker.spotify.
-ads-fa.spotify.0.0.0.0 ads.pubmatic.c
+ads-fa.spotify.ads.pubmatic.c
 analytics.spotify.
 b.scorecardresearch.
 bounceexchange.
@@ -1684,7 +1686,7 @@ core.insightexpressai.
 d2gi7ultltnc2u.cloudfront.
 d3rt1990lpmkn.cloudfront.
 doubleclick.
-ds.serving-sys.0.0.0.0 gads.pubmatic.c
+ds.serving-sys.gads.pubmatic.c
 googleads.g.doubleclick.
 gtssl2-ocsp.geotrust.
 js.moatads.
